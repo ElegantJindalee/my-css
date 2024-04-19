@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+div,
+span {
+	font-family: 'Outfit' !important;
+}
+
+* {
+	font-family: 'Outfit' !important;
+}
+
+div.game-name-title, .game-card-name {
+    font-weight: 500;
+}
+
+#nav-shop,
+#upgrade-now-button,
+#btr-blogfeed,
+#nav-blog,
+#nav-giftcards,
+#settings-popover-menu > li:nth-of-type(4) > .rbx-menu-item,
+#settings-popover-menu > li:nth-of-type(1) > .rbx-menu-item{
+	display: none;
+}
+#buy-robux-popover-menu > li:nth-of-type(1), #buy-robux-popover-menu > li:nth-of-type(3), .cursor-pointer.btr-nav-header_home {
+	display: none;
+}
+a[href="home"] {
+  display: none;
+}
