@@ -18,8 +18,8 @@ span {
 	font-family: 'Outfit' !important;
 }
 
-div.game-name-title, .game-card-name {
-    font-weight: 400;
+div.game-name-title, div.game-card-name {
+    font-weight: 500;
 }
 
 #nav-shop,
